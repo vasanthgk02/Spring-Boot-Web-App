@@ -1,0 +1,71 @@
+server:
+    port: 8080
+    servlet:
+        context-path: /api/v1
+
+spring:
+    profiles:
+        active: dev
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "*"
+
+---
+spring:
+    config:
+        activate:
+            on-profile: dev
+    application:
+        name: codewithbuffer
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: Admin@123
+        url: jdbc:mysql://localhost:3306/webapp
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+var:
+    welcomeMessage: "Welcome to my application"
+
+---
+spring:
+    config:
+        activate:
+            on-profile: qa
+    application:
+        name: codewithbuffer
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: Admin@123
+        url: jdbc:mysql://localhost:3306/webapp
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+var:
+    welcomeMessage: "Welcome to my application"
+
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+    application:
+        name: codewithbuffer
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: Admin@123
+        url: jdbc:mysql://localhost:3306/webapp
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+var:
+    welcomeMessage: "Welcome to my application"
