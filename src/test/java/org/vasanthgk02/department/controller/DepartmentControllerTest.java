@@ -1,4 +1,4 @@
-package org.vasanthgk02.codewithbuffer.controller;
+package org.vasanthgk02.department.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,8 +10,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.vasanthgk02.codewithbuffer.entity.Department;
-import org.vasanthgk02.codewithbuffer.service.DepartmentService;
+import org.vasanthgk02.department.entity.Department;
+import org.vasanthgk02.department.service.DepartmentService;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,7 +1,7 @@
-package org.vasanthgk02.codewithbuffer.service;
+package org.vasanthgk02.department.service;
 
-import org.vasanthgk02.codewithbuffer.entity.Department;
-import org.vasanthgk02.codewithbuffer.exception.DepartmentNotFoundException;
+import org.vasanthgk02.department.entity.Department;
+import org.vasanthgk02.department.exception.DepartmentNotFoundException;
 
 import java.util.List;
 

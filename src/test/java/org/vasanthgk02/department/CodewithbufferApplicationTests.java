@@ -1,4 +1,4 @@
-package org.vasanthgk02.codewithbuffer;
+package org.vasanthgk02.department;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

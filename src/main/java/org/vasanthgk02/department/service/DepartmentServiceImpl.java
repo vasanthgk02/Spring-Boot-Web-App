@@ -1,10 +1,10 @@
-package org.vasanthgk02.codewithbuffer.service;
+package org.vasanthgk02.department.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.vasanthgk02.codewithbuffer.entity.Department;
-import org.vasanthgk02.codewithbuffer.exception.DepartmentNotFoundException;
-import org.vasanthgk02.codewithbuffer.repository.DepartmentRepository;
+import org.vasanthgk02.department.entity.Department;
+import org.vasanthgk02.department.exception.DepartmentNotFoundException;
+import org.vasanthgk02.department.repository.DepartmentRepository;
 
 import java.util.List;
 import java.util.Optional;

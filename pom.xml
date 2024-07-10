@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.vasanthgk02</groupId>
-    <artifactId>Department Spring Boot Application - DCB</artifactId>
+    <artifactId>department</artifactId>
     <version>1.0.0</version>
-    <name>codewithbuffer</name>
-    <description>codewithbuffer</description>
+    <name>department</name>
+    <description>department</description>
     <url/>
     <licenses>
         <license/>
@@ -77,10 +77,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

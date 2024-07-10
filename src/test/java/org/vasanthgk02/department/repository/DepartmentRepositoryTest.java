@@ -1,11 +1,11 @@
-package org.vasanthgk02.codewithbuffer.repository;
+package org.vasanthgk02.department.repository;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.jdbc.DataJdbcTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
-import org.vasanthgk02.codewithbuffer.entity.Department;
+import org.vasanthgk02.department.entity.Department;
 
 import static org.junit.jupiter.api.Assertions.*;
 

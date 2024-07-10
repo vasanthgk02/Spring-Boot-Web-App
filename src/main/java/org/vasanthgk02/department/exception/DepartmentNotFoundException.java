@@ -1,4 +1,4 @@
-package org.vasanthgk02.codewithbuffer.exception;
+package org.vasanthgk02.department.exception;
 
 public class DepartmentNotFoundException extends Exception{
     public DepartmentNotFoundException() {

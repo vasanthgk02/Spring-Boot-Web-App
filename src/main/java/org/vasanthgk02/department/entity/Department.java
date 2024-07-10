@@ -1,4 +1,4 @@
-package org.vasanthgk02.codewithbuffer.entity;
+package org.vasanthgk02.department.entity;
 
 
 import jakarta.persistence.Entity;

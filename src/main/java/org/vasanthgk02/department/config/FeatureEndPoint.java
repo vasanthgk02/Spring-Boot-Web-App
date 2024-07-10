@@ -1,4 +1,4 @@
-package org.vasanthgk02.codewithbuffer.config;
+package org.vasanthgk02.department.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

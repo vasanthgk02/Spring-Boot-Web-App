@@ -1,4 +1,4 @@
-package org.vasanthgk02.codewithbuffer.controller;
+package org.vasanthgk02.department.controller;
 
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
-import org.vasanthgk02.codewithbuffer.entity.Department;
-import org.vasanthgk02.codewithbuffer.exception.DepartmentNotFoundException;
-import org.vasanthgk02.codewithbuffer.service.DepartmentService;
+import org.vasanthgk02.department.entity.Department;
+import org.vasanthgk02.department.exception.DepartmentNotFoundException;
+import org.vasanthgk02.department.service.DepartmentService;
 
 import java.util.List;
 
